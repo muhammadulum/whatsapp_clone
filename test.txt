@@ -4,3 +4,7 @@ update
 
 
 update local
+
+"C:\Users\666hi\AppData\Local\Android\Sdk\emulator\emulator.exe" -avd Emulator_HPKecil
+
+ git pull origin main --rebase

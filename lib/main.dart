@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_messenger_clone/common/theme/light_theme.dart';
 import 'package:whatsapp_messenger_clone/feature/welcome/pages/welcome_page.dart';
 
 void main() {
@@ -14,8 +15,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'WhatsApp Hiken',
-      theme: ThemeData.dark(),
+      theme: lightTheme(),
+      darkTheme: ThemeData.dark(),
 
+      // themeMode: ThemeMode.system,
       home: WelcomePage(),
     );
   }
